@@ -1,0 +1,35 @@
+{
+  "name": "npm_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts.js",
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "gulp-jshint": "^2.1.0",
+    "jquery": "^3.4.1",
+    "jshint": "^2.10.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "browser-sync": "^2.26.7",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-better-rollup": "^4.0.1",
+    "gulp-image": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "rollup": "^1.17.0",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.0.1",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "run-sequence": "^2.2.1"
+  },
+  "scripts": {
+    "start": "gulp watch && npx babel dist/scripts.js --out-file dist/scripts.babel.js",
+    "test": "\u001b[A\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C(gulpfile\u001b[B\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D test"
+  },
+  "author": "",
+  "license": "ISC"
+}
